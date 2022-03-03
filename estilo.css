@@ -3,6 +3,37 @@
     padding: 0;
 }
 
-body{
-    background-color: aqua;
+html, body, #root {
+    height: 100vh;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#layout-header {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding: 0.5rem 1rem;
+    background-color: violet;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+}
+#layout-header nav a {
+    margin-left: 1rem;
+}
+main {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+footer{
+    padding: 0.5rem;
+    background-color: violet;
+    text-align: center;
 }

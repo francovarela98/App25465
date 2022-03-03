@@ -1,14 +1,15 @@
 import React from 'react'
-
+import Nav from './Nav'
 const Header = () => {
+  
   return (
-    <header>
+    <header id='layout-header' className='layout__header'>
     <h1>Mi E-commerce</h1>
-    <nav>
-        <a href=''>Link</a>
-        <a href=''>Link</a>
-        <a href=''>Link</a>
-    </nav>
+    <span class="material-icons">
+     shop_2
+    </span>
+
+     <Nav/>
     </header>
   )
 }
